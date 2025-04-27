@@ -1,0 +1,42 @@
+1. check version of gradle:
+gradle -v
+
+2.create folder and navigate:
+mkdir HelloGradle
+
+cd HelloGradle
+
+3. Initialize gradle:
+gradle init --type java-application
+
+4. tasks
+
+task hello {
+
+doLast {
+
+println 'Hello, Gradle!'
+
+}
+
+}
+
+gradle hello
+
+task greet(dependsOn: build) {
+
+doLast {
+
+println 'Build is complete! Time to celebrate!'
+
+}
+
+}
+
+5. Build tasks
+
+gradle build
+
+gradle run
+
+gradle hello
