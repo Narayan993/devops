@@ -11,9 +11,9 @@ mvn package
 4) Open pom.xml and type the following code (after version tag (or) after name tag)
 <properties>
 
-<maven.compiler.source>6</maven.compiler.source>
+<maven.compiler.source>11</maven.compiler.source>
 
-<maven.compiler.target>1.6</maven.compiler.target>
+<maven.compiler.target>11</maven.compiler.target>
 
 </properties>
 
